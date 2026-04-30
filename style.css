@@ -1,27 +1,59 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   margin: 0;
   background: #0f172a;
   color: white;
 }
 
+/* HEADER */
 header {
   text-align: center;
-  padding: 80px;
+  padding: 80px 20px;
   background: linear-gradient(135deg, #6366f1, #06b6d4);
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
 section {
-  padding: 50px;
+  padding: 40px 20px;
 }
 
 h2 {
   color: #38bdf8;
 }
 
+/* SKILLS */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #1e293b;
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* PROJECTS */
 .project {
   background: #1e293b;
   padding: 15px;
-  margin: 10px 0;
+  margin: 15px 0;
   border-radius: 10px;
+}
+
+.project a {
+  margin-right: 10px;
+  color: #38bdf8;
 }
